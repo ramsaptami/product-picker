@@ -1,0 +1,33 @@
+{
+  "name": "canva-product-picker",
+  "version": "1.0.0",
+  "description": "A Canva app for searching and inserting branded products",
+  "main": "src/app.tsx",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "preview": "canva apps preview"
+  },
+  "dependencies": {
+    "@canva/app-ui-kit": "^4.10.0",
+    "@canva/asset": "^2.2.1",
+    "@canva/design": "^2.7.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.0.0",
+    "html-webpack-plugin": "^5.0.0",
+    "ts-loader": "^9.0.0",
+    "css-loader": "^6.0.0",
+    "style-loader": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

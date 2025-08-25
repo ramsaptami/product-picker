@@ -1,0 +1,14 @@
+{
+  "name": "Brand Product Picker",
+  "description": "Search test products, insert into Canva, and label with brand.",
+  "runtime": {
+    "permissions": [
+      "canva:design:content:read",
+      "canva:design:content:write",
+      "canva:asset:private:write"
+    ]
+  },
+  "capabilities": {
+    "surfaces": ["side_panel"]
+  }
+}
